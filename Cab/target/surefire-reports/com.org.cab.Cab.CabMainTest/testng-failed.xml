@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.org.cab.Cab.CabMainTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.org.cab.Cab.CabMainTest">
+        <methods>
+          <include name="viewchangelocationapproval"/>
+          <include name="chrome"/>
+          <include name="login"/>
+          <include name="viewrequest"/>
+          <include name="viewUpdateMobileNumber"/>
+          <include name="createOneTimeRequest"/>
+          <include name="contacts"/>
+          <include name="spoccancelRequest"/>
+          <include name="spocaccess"/>
+          <include name="spocviewchangelandmark"/>
+          <include name="viewchangelocationrejection"/>
+          <include name="viewchangelandmark"/>
+          <include name="spocviewrequest"/>
+          <include name="spoccreateOneTimeRequest"/>
+          <include name="spocviewUpdateMobileNumber"/>
+        </methods>
+      </class> <!-- com.org.cab.Cab.CabMainTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.org.cab.Cab.CabMainTest] -->
